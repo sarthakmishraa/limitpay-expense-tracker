@@ -7,7 +7,7 @@ export const Balance = async() => {
     return(
         <>
             <h4>Your balance</h4>
-            <h1>${addCommas(balance ?? 0)}</h1>
+            <h1>${addCommas(Math.abs(balance ?? 0))}</h1>
         </>
     )
 }

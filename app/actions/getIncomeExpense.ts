@@ -21,7 +21,7 @@ export const getIncomeExpense = async(): Promise<{
         const amounts = transactions.map((transaction) => transaction.amount);
 
         const income = amounts.filter((amount) => amount > 0).reduce((acc, amount) => acc + amount, 0);
-        const expense = amounts.filter((amount) => amount < 0).reduce((acc, amount) => acc + amount);
+        const expense = amounts.filter((amount) => amount < 0).reduce((acc, amount) => acc + amount, 0);
 
         return { income: income, expense: expense }
     }

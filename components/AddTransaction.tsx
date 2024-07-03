@@ -24,12 +24,12 @@ export const AddTransaction = () => {
             <h3>Add an expense</h3>
             <form ref={formRef} action={ clientAction }>
                 <div className="form-control">
-                    <label htmlFor="text">Text</label>
+                    <label htmlFor="text">Expense description</label>
                     <input
                         type="text"
                         id="text"
                         name="text"
-                        placeholder="Enter text..."
+                        placeholder="Enter here..."
                     />
                 </div>
                 <div className="form-control">

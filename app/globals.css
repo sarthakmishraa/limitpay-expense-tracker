@@ -55,6 +55,20 @@ body {
   padding: 0 2rem;
 }
 
+.navbar-items a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navbar-items span{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.navbar-items span:hover{
+  color: #3a3f42;
+}
+
 .navbar .cl-button {
   background: transparent;
   border: 0;

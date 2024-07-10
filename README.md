@@ -25,6 +25,6 @@ LimitPay is an expense tracking application built with Next.js. It provides user
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/sarthakmishraa/trip-script.git`
+1. Clone the repository: `git clone https://github.com/sarthakmishraa/limitpay-expense-tracker.git`
 
 Feel free to clone the repository and explore the project. Contributions are welcome!

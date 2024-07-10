@@ -13,9 +13,9 @@ LimitPay is an expense tracking application built with Next.js. It provides user
 
 ## Snippets
 <h3>LimitPay Landing Page</h3>
-<img src="./public/snip1.png" width="600" />
+<img src="./media/snip1.png" width="600" />
 <h3>LimitPay Home</h3>
-<img src="./public/snip2.png" width="600" />
+<img src="./media/snip2.png" width="600" />
 
 ## Tech Used
 - **Frontend:** Next.js, React.js, CSS
